@@ -1,7 +1,6 @@
 <template>
   <div>
-    <img class="trifuerza_logo" src="./assets/trifuerza.png" alt="">
-    <Equipo msg="Ongi Etorri!"/>
+    <Equipo msg="Trifuerza"/>
   </div>
 </template>
 
@@ -32,4 +31,14 @@ export default {
   background-color: rgb(240, 255, 255);
 }
 
+.trifuerza_logo {
+width: 2rem;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
 </style>
